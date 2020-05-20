@@ -32,7 +32,7 @@
                 <span class="sidebar-normal">{{ __('Perfil') }} </span>
               </a>
             </li>
-            <li class="nav-item{{ $activePage == 'user-management' ? ' active' : '' }}">
+            <li class="nav-item{{ $activePage == 'Usuario' ? ' active' : '' }}">
               <a class="nav-link" href="{{ route('user.index') }}">
                 <span class="sidebar-mini"> AU </span>
                 <span class="sidebar-normal"> {{ __('Administrar Usuario') }} </span>
@@ -41,25 +41,25 @@
           </ul>
         </div>
       </li>
-      <li class="nav-item{{ $activePage == 'cupo' ? ' active' : '' }}">
+      <li class="nav-item{{ $activePage == 'Cupos disponibles' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('parqueadero.index') }}">
           <i class="material-icons">library_books</i>
             <p>{{ __('Cupos disponibles') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'cliente' ? ' active' : '' }}">
+      <li class="nav-item{{ $activePage == 'Cliente' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('cliente.index') }}">
           <i><img style="width:25px" src="{{ asset('material') }}/img/ex1.png"></i>
           <p>{{ __('Clientes') }}</p>
         </a>         
       </li>
-      <li class="nav-item{{ $activePage == 'vehiculo' ? ' active' : '' }}">
+      <li class="nav-item{{ $activePage == 'Vehiculo' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('vehiculo.index') }}">
           <i class="material-icons">directions_car</i>         
             <p>{{ __('Vehiculos') }}</p>
         </a>
       </li>
-      <li class="nav-item{{ $activePage == 'detalle' ? ' active' : '' }}">
+      <li class="nav-item{{ $activePage == 'Hora' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('detalle.index') }}">
           <i class="material-icons">assignment_turned_in</i>        
             <p>{{ __('Hora de ingreso') }}</p>
