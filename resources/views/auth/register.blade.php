@@ -9,7 +9,7 @@
 
         <div class="card card-login card-hidden mb-3">
           <div class="card-header card-header-primary text-center">
-            <h4 class="card-title"><strong>{{ __('Register') }}</strong></h4>
+            <h4 class="card-title"><strong>{{ __('Registrarse') }}</strong></h4>
             <div class="social-line">
               <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
                 <i class="fa fa-facebook-square"></i>
@@ -31,7 +31,7 @@
                       <i class="material-icons">face</i>
                   </span>
                 </div>
-                <input type="text" name="name" class="form-control" placeholder="{{ __('Name...') }}" value="{{ old('name') }}" required>
+                <input type="text" name="name" class="form-control" placeholder="{{ __('Nombre...') }}" value="{{ old('name') }}" required>
               </div>
               @if ($errors->has('name'))
                 <div id="name-error" class="error text-danger pl-3" for="name" style="display: block;">
@@ -61,7 +61,7 @@
                     <i class="material-icons">lock_outline</i>
                   </span>
                 </div>
-                <input type="password" name="password" id="password" class="form-control" placeholder="{{ __('Password...') }}" required>
+                <input type="password" name="password" id="password" class="form-control" placeholder="{{ __('Contraseña...') }}" required>
               </div>
               @if ($errors->has('password'))
                 <div id="password-error" class="error text-danger pl-3" for="password" style="display: block;">
@@ -95,7 +95,7 @@
             </div>
           </div>
           <div class="card-footer justify-content-center">
-            <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Create account') }}</button>
+            <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Crear cuenta') }}</button>
           </div>
         </div>
       </form>
